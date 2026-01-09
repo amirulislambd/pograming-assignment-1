@@ -7,25 +7,12 @@
 }
 
 /* shared styles */
-body {
-  width: 1600px;
+.container {
+  width: 71%;
   max-width: 1140px;
   margin: 0 auto;
 }
-/* .container {
-  width: 83%;
-  max-width: 1140px;
-  margin: 0 auto;
-} */
-h1 {
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 84px;
-  color: white;
-}
-h1 span {
-  color: #30b868;
-}
+
 h2 {
   font-weight: 700;
   font-size: 48px;
@@ -78,10 +65,10 @@ p {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 16px 0;
+  padding: 16px 0;
   align-items: center;
 }
-nav ul li {
+nav ul {
   display: flex;
   list-style: none;
   gap: 32px;
@@ -98,10 +85,21 @@ li a {
   padding: 70px 120px 135px;
   background-image: url("../assets/hero-bg.png");
 }
-/* .banner-container .banner-content{
-  width: 770px;
-} */
-.early-access {
+.banner-content {
+  width: 700px;
+  max-width: 0 auto;
+}
+.banner-container h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  color: white;
+}
+h1 span {
+  color: #30b868;
+}
+
+.early-accessBTN {
   color: #30b868;
   background-color: #ffffff;
   padding: 9px 12px;
@@ -128,30 +126,65 @@ li a {
   border-radius: 100%;
   padding: 14px;
 }
- 
+
 /* brain section */
-.brain-container{
+.brain-container {
   display: flex;
   margin-top: 80px;
   gap: 60px;
   align-items: center;
 }
-.brain-info{
-  display: flex;
-  align-items: center;
-  gap: 2px;
-  
+brain-img {
+  width: 600px;
+  height: 600px;
 }
-.brain-info img{
+.brain-info {
+  display: flex;
+  gap: 2px;
+}
+.brain-info img {
   height: 20px;
   width: 20px;
 }
 
 /* Early Access Section */
-.access-container{
+.access-container {
   text-align: center;
-  margin: 120px 0 ;
   padding: 80px 40px;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
 }
 
+/* footer section */
+footer {
+  background-color: #001931;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding-right: 107px;
+}
+.footer-container {
+  padding: 120px 0 30px;
+}
+.social-title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.social a {
+  color: whitesmoke;
+}
+/* subFooter */
+footer hr {
+  margin-bottom: 30px;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.subFooter {
+  color: #ffffff;
+  text-align: center;
+  font-size: small;
+  padding-bottom: 30px;
+  margin: 0;
+}

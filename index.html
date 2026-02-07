@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Font Awesome link-->
     <link
       rel="stylesheet"
@@ -20,12 +21,12 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="">
       <nav class="container">
         <div>
-          <img src="assets/logo-footer.png" alt="nav-logo" />
+          <img class="logo" src="assets/logo-footer.png" alt="nav-logo" />
         </div>
-        <ul>
+        <ul class="">
           <li><a href="">Features</a></li>
           <li><a href="">How It Works</a></li>
           <li><a href="">Why It's Different</a></li>
@@ -60,11 +61,13 @@
     <main>
       <!-- cards section -->
       <div class="card-container container">
-        <h2>Notes don't fail, Structure does.</h2>
+
+         <h2>Notes don't fail, Structure does.</h2>
         <p>
           You're not bad at learning. Your tools just weren't built for how
           knowledge actually works.
         </p>
+
         <div class="card-content">
           <div class="card">
             <img src="assets/Vector.png" alt="notes.png" />
@@ -97,13 +100,15 @@
           <img src="assets/knowledge.png" alt="" />
         </div>
         <div>
-          <p>The Solution</p>
-          <h2>Your second brain, structured by design.</h2>
+          <div class="brain-text">
+           <h4>The Solution</h4>
+           <h2>Your second brain, structured by design.</h2>
           <p>
             Personal Knowledge Vault isn't another note-taking app. It's a
             thinking environment where every note, link, and summary becomes
             part of an interconnected web of understanding.
           </p>
+         </div>
           <div>
             <div class="brain-info">
               <img src="assets/CheckCircle.png" alt="check-icon" />
@@ -143,9 +148,15 @@
           <img class="logo" src="assets/logo-navbar.png" alt="logo-footer" />
           <div class="social">
             <p class="social-title">Social Links</p>
-            <a href="https://www.facebook.com/profile.php?id=61583826647447"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/md-amirul-islam-b60a283a0/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://x.com/amirislambd313"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61583826647447"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/md-amirul-islam-b60a283a0/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://x.com/amirislambd313"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
           </div>
         </div>
         <div>

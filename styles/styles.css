@@ -264,7 +264,7 @@ footer hr {
 
   .banner-container h1 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 30px;
     padding-top: 15px;
     line-height: 25px;
     color: white;
@@ -303,15 +303,17 @@ footer hr {
   /* brain section */
   .brain-container {
     /* text-align: center; */
+    justify-items: center;
+    justify-content: center;
     flex-direction: column-reverse;
     margin: 50px 0;
     gap: 30px;
   }
   .brain-text {
     text-align: center;
+    margin: 0 15px;
   }
   .brain-text h2 {
-    margin: 0;
     line-height: 25px;
   }
 
@@ -322,6 +324,7 @@ footer hr {
   .brain-info {
     gap: 2px;
     align-items: first baseline;
+    margin: 0 15px;
   }
   .brain-info img {
     height: 15px;
